@@ -87,3 +87,6 @@ rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 ro.com.android.dataroaming=true
 ro.telephony.default_network=10,10
 telephony.lteOnCdmaDevice=1
+
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
