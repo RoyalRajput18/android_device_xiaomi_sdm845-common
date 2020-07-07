@@ -27,6 +27,10 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+# Setup ZSWAP
+mkswap /dev/block/vnswap0
+swapon /dev/block/vnswap0
+
 # Let kernel know our image version/variant/crm_version
 if [ -f /sys/devices/soc0/select_image ]; then
     image_version="10:"
